@@ -1,0 +1,51 @@
+.personal-info {
+    overflow: hidden;
+    padding: 24px;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--color-main);
+}
+
+.personal-info > .image-container {
+    max-width: 350px;
+}
+
+.personal-info > .image-container > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-lg);
+    margin-bottom: 32px;
+}
+
+.personal-info > .text-name {
+    font-size: 24px;
+    color: var(--color-shade-400);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.personal-info > .job-name {
+    font-size: 18px;
+    color: var(--color-shade-300);
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.personal-info > .flex-container { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.personal-info > .flex-container > .desc-text {
+    font-size: 18px;
+    color: var(--color-shade-400);
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+.personal-info > .description-text {
+    font-size: 18px;
+    color: var(--color-shade-300);
+    font-weight: 500;
+    margin-top: 32px;
+}

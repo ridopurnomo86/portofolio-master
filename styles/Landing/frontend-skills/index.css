@@ -1,0 +1,48 @@
+.skills {
+    overflow: hidden;
+    padding: 24px;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--color-main);
+}
+
+.skills > .title-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-shade-400);
+    margin-bottom: 16px;
+}
+
+.skills > .flex-container { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.skills > .flex-container > .skill-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-shade-400);
+}
+
+
+.skills > .flex-container > .percentage-container {
+    min-width: 320px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skills .flex-container .percentage-container .percentage {
+    border-radius: var(--border-radius-lg);
+    height: 8px;
+    background-color: var(--color-shade-200);
+    width: 100%;
+    position: relative;
+}
+
+.skills .flex-container .percentage-container .percentage .percentage-filled {
+    border-radius: var(--border-radius-lg);
+    height: 8px;
+    background-color: var(--color-blue);
+    width: 100%;
+}
