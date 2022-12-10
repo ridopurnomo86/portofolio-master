@@ -1,0 +1,23 @@
+.hobbies {
+    overflow: hidden;
+    padding: 24px;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--color-main);
+}
+
+.hobbies > .title-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-shade-400);
+    margin-bottom: 24px;
+}
+ 
+.hobbies > .hobby-container > .image-container {
+    width: 100%;
+}
+
+.hobbies > .hobby-container > .image-container > img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-lg);
+}
