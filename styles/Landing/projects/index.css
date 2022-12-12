@@ -1,0 +1,92 @@
+.projects {}
+
+.projects > .tab-container {
+    overflow: hidden;
+    padding: 24px;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--color-main);
+    margin-bottom: 16px;
+}
+
+.projects > .tab-container > .title-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-shade-400);
+}
+
+.projects .project-container {
+    overflow: hidden;
+    padding: 24px;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--color-main);
+    margin-bottom: 32px;
+}
+
+.projects .project-container .flex-container { 
+    display: flex;
+}
+
+.projects .project-container .flex-container .info-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects .project-container .flex-container .info-container .tag-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-shade-400);
+    margin-right: 8px;
+}
+
+.projects .project-container .flex-container .info-container .title-text {
+    margin: 24px 0px 16px 0px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--color-shade-500);
+}
+
+.projects .project-container .flex-container .info-container .desc-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-shade-300);
+}
+
+.projects .project-container .flex-container .image-container { 
+    max-width: 322px;
+}
+
+.projects .project-container .flex-container .image-container img { 
+    width: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-lg);
+}
+
+.projects .project-container .flex-container .info-container .action-container {
+    margin-top: 52px;
+}
+
+.projects .project-container .flex-container .info-container .action-container .demo-button {
+    padding: 12px 32px;
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    background-color: var(--color-blue);
+    color: var(--color-main);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 12px;
+}
+
+.projects .project-container .flex-container .info-container .action-container .code-button {
+    padding: 12px 32px;
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    background-color: var(--color-main);
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}

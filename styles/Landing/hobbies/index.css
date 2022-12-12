@@ -11,6 +11,10 @@
     color: var(--color-shade-400);
     margin-bottom: 24px;
 }
+
+.hobbies > .hobby-container {
+    margin-bottom: 32px;
+}
  
 .hobbies > .hobby-container > .image-container {
     width: 100%;
@@ -18,6 +22,22 @@
 
 .hobbies > .hobby-container > .image-container > img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: var(--border-radius-lg);
+}
+
+.hobbies > .hobby-container > .title-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-shade-500);
+    margin: 24px 0px 8px 0px;
+}
+
+.hobbies > .hobby-container > .desc-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-shade-300);
 }
