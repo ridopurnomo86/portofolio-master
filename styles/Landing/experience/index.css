@@ -1,6 +1,6 @@
 .experience {
     overflow: hidden;
-    padding: 24px;
+    padding: 24px 24px 32px 24px;
     border-radius: var(--border-radius-lg);
     background-color: var(--color-main);
 }

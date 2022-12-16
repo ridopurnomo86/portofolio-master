@@ -6,7 +6,7 @@
 }
 
 .personal-info > .image-container {
-    max-width: 350px;
+    max-width: 100%;
 }
 
 .personal-info > .image-container > img {
