@@ -75,3 +75,39 @@
 .grid-row-span-6 {
     grid-row: span 6;
 }
+
+@media screen and (max-width: 1566px) {
+    .container {
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .design {
+        display: none;
+    }
+    .frontend {
+        grid-column: span 2;
+    }
+    .personal-info {
+        grid-row: span 4;
+    }
+}
+
+@media screen and (max-width: 1226px) {
+    .hobbies {
+        grid-column: 1 / span 3;
+        grid-row: 12 / span 5;
+    }
+    .blogs {
+        grid-row: 9;
+        grid-column: 1 / span 3;
+    }
+}
+
+@media screen and (max-width: 1154px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
